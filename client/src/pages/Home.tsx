@@ -89,7 +89,7 @@ export default function Home() {
               <span className="text-accent">专业物流运输</span>
             </h1>
             <p className="text-xl text-white/90 mb-8 max-w-xl">
-              20年行业经验，200+运输车队，为数千家企业提供安全、高效、可靠的物流运输服务。专业运营洛阳至广西全境的物流运输网络。
+              洛阳汇宇物流是一家专业的洛阳物流公司，专注洛阳至广西物流专线运输服务。提供大件运输、整车运输、设备运输、工程机械运输等物流服务。公司拥有200+运输车辆，覆盖广西南宁、柳州、桂林、北海等城市，为企业提供安全、高效的物流运输解决方案。
             </p>
             <div className="flex flex-wrap gap-4">
               <Button
