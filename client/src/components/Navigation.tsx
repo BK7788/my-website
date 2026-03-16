@@ -10,6 +10,7 @@ export default function Navigation() {
     { label: '关于我们', href: '/about' },
     { label: '核心业务', href: '/services' },
     { label: '运输车队', href: '/fleet' },
+    { label: '广西分公司', href: '/guangxi' },
     { label: '联系我们', href: '/contact' },
   ];
 

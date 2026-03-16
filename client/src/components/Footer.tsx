@@ -53,7 +53,7 @@ export default function Footer() {
               </div>
               <div className="flex items-start gap-2">
                 <MapPin size={16} className="mt-1" />
-                <span>河南省洛阳市老城区金燕物流中心西区56号</span>
+                <span>河南省洛阳市老城区金燕物流中心西区50-51号</span>
               </div>
             </div>
           </div>

@@ -57,7 +57,7 @@ export default function Contact() {
     {
       icon: MapPin,
       title: '地址',
-      details: ['河南省洛阳市老城区', '金燕物流中心西区56号'],
+      details: ['河南省洛阳市老城区', '金燕物流中心西区50-51号'],
     },
     {
       icon: Clock,
@@ -227,12 +227,12 @@ export default function Contact() {
                 <div className="space-y-4">
                   <div>
                     <p className="text-foreground/70 text-sm mb-2">公司地址</p>
-                    <p className="text-lg font-semibold text-primary">河南省洛阳市老城区金燕物流中心西区56号</p>
+                    <p className="text-lg font-semibold text-primary">河南省洛阳市老城区金燕物流中心西区50-51号</p>
                   </div>
                   <div className="pt-4 border-t border-border">
                     <p className="text-foreground/70 text-sm mb-2">高德地图导航</p>
                     <a 
-                      href="https://amap.com/search?query=河南省洛阳市老城区金燕物流中心西区56号"
+                      href="https://amap.com/search?query=河南省洛阳市老城区金燕物流中心西区50-51号"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-block bg-primary hover:bg-primary/90 text-white px-6 py-2 rounded-lg font-semibold transition-colors"

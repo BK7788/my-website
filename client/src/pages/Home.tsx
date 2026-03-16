@@ -3,6 +3,7 @@ import { Card } from '@/components/ui/card';
 import { ArrowRight, Zap, Users, Award, TrendingUp, Package, MapPin, Phone, Mail, MapPinIcon, MessageCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 import Navigation from '@/components/Navigation';
+import RegionalFooter from '@/components/RegionalFooter';
 import Footer from '@/components/Footer';
 import { useRef } from 'react';
 import { toast } from 'sonner';
@@ -333,12 +334,12 @@ export default function Home() {
                 </div>
                 <h3 className="text-lg font-bold text-primary mb-2">公司地址</h3>
                 <p className="text-sm text-foreground/60 mb-5 min-h-10">
-                  河南省洛阳市老城区<br />金燕物流中心西区56号
+                  河南省洛阳市老城区<br />金燕物流中心西区50-51号
                 </p>
                 <Button
                   onClick={() => {
                     toast.success('地址已复制到剪贴板');
-                    navigator.clipboard.writeText('河南省洛阳市老城区金燕物流中心西区56号');
+                    navigator.clipboard.writeText('河南省洛阳市老城区金燕物流中心西区50-51号');
                   }}
                   variant="outline"
                   className="w-full font-semibold text-sm py-2"
@@ -398,10 +399,10 @@ export default function Home() {
               <Card className="p-6 text-center hover:shadow-lg transition-all duration-300 h-full border-l-4 border-l-accent bg-gradient-to-br from-accent/5 to-transparent">
                 <h3 className="text-lg font-bold text-primary mb-4">联系电话</h3>
                 <div className="space-y-2 text-sm text-foreground/70">
-                  <p><strong>手机:</strong> +86 13608665306</p>
-                  <p><strong>座机:</strong> 0379-64562777</p>
+                  <p><strong>洛阳手机:</strong> +86 13608665306</p>
+                  <p><strong>洛阳座机:</strong> 0379-64562777</p>
+                  <p><strong>广西电话:</strong> +86 13788123696</p>
                   <p><strong>邮箱:</strong> 250123568@qq.com</p>
-                  <p><strong>微信:</strong> 13608665306</p>
                 </div>
               </Card>
             </motion.div>
@@ -468,6 +469,7 @@ export default function Home() {
         </motion.div>
       </section>
 
+      <RegionalFooter />
       <Footer />
     </div>
   );
